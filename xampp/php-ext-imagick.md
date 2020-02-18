@@ -11,7 +11,7 @@
 
 php.ini
 ```bash
-
+extension=php_imagick.dll
 ```
 
 ## Binary
