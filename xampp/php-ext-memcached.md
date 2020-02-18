@@ -60,5 +60,10 @@ Channel "pecl.php.net" is up to date
 
 php.ini
 ```bash
-extension=php_imagick.dll
+extension=php_memcache.dll
 ```
+
+## Friend
+
+
+<https://github.com/yshurik/libmemcached-win/releases/tag/1.0.18>
