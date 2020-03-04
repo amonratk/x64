@@ -63,7 +63,15 @@ php.ini
 extension=php_memcache.dll
 ```
 
-## Friend
+## 20200302
 
+Look `phpinfo()` and getting this data
+
+1. PHP Version `7.4.2`
+2. Complier `Visual C++ 2017`
+3. Architecture `x64`
+4. Thread Safety `enabled`
+
+## Friend
 
 <https://github.com/yshurik/libmemcached-win/releases/tag/1.0.18>
