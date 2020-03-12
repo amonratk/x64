@@ -63,3 +63,14 @@ extension=pdo_mysql
 extension=sqlsrv_74_nts_x64
 extension=pdo_sqlsrv_74_nts_x64
 ```
+
+## enabled PHP Accelerator
+
+1. Download dll files <a href="https://windows.php.net/downloads/pecl/releases/apcu/5.1.18/php_apcu-5.1.18-7.4-nts-vc15-x64.zip">Download</a>
+2. Unzip `php_apcu-5.1.18-7.4-nts-vc15-x64.zip` and give up `php_apcu.dll`
+3. Copy `php_apcu.dll` and paste to `C:\tools\php74\ext`
+4. Update `C:\tools\php74\php.ini` 
+
+```bash
+extension=apcu
+```
