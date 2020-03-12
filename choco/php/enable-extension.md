@@ -39,3 +39,27 @@ extension=intl
 ;extension=soap
 extension=soap
 ```
+
+## enabled mysql
+
+1. Checking exist dll first `C:\tools\php74\ext` should be exist `php_pdo_mysql.dll`
+2. Enabled via uncommend file on `C:\tools\php74\php.ini`
+
+```bash
+;extension=pdo_mysql
+extension=pdo_mysql
+```
+
+## enabled SQL Server
+
+1. Download dll files <a href="https://go.microsoft.com/fwlink/?linkid=2120362">Download</a>
+2. Double click `SQLSRV58.EXE`
+3. Accept all of terms then click `Yes`
+4. Browse directory to paste dll file then press `OK`
+5. Copy `php_sqlsrv_74_nts_x64.dll` and `php_pdo_sqlsrv_74_nts_x64.dll` to `C:\tools\php74\ext`
+6. Update `C:\tools\php74\php.ini`
+
+```bash
+extension=sqlsrv_74_nts_x64
+extension=pdo_sqlsrv_74_nts_x64
+```
